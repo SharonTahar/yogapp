@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Yoga-Poses</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/login">Log In</a></li>
+                        <li><a href="/favorites">Favorites</a></li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        
+                        <li><a href="/signup">Sign Up</a></li>
+                        <li><a href="/logout">Log Out</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="container row">
+            <div class="jumbotron col-sm-4 pull-center">
+                    <form class="text-center border border-light p-5" action="/signup" method="post">
+
+                        <!-- <p class="h4 mb-4">Sign up</p> -->
+              
+                        <div class="form-row mb-4">
+                            <div class="col">
+                                <!-- First name -->
+                                
+                                <input type="text" name="fname" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <!-- Last name -->
+                                
+                                <input type="text" name="lname" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+              
+                        <!-- E-mail -->
+                        <input type="email" name="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+              
+                        <!-- Password -->
+                        <input type="password" name="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        <!-- <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4"></small>
+                            At least 8 characters
+                        </small> -->
+                        <!-- Sign up button -->
+                        <input class="btn btn-info my-4 btn-block" type="submit" value="signup"/>
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>

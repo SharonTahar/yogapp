@@ -1,0 +1,58 @@
+body, html {
+	height: 100%;
+	margin: center;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	width: 100%;
+	justify-content: center;
+} 
+
+.target {
+	align-self: center;
+	justify-self: center;
+	border: 1px solid black;
+	width: 300px;
+	height: 428px;
+	text-align: center;
+}
+
+.show-fav {
+	background-color: pink;
+}
+
+h1 {
+	margin-top: 70px;
+	text-align: center;
+}
+
+#container
+{
+	align-items: center;
+	display: block;
+    text-align: center;
+}
+
+form {
+	width: 30vw;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+	margin:0 auto;
+} 
+
+#login {
+	width: 30vw;
+}
+
+/* --------404 style */
+.error {
+	color: red;
+}
+
+
+	
